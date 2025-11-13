@@ -28,6 +28,11 @@ const chatSchema = new mongoose.Schema({
 
 const ChatMessage = mongoose.model('ChatMessage', chatSchema);
 
+app.use(cors({
+  origin: "https://sustainability-assistant-fa7p.onrender.com",
+}));
+app.use(express.json());
+
 // ✅ Rate Limiting
 const limiter = rateLimit({
   windowMs: 60 * 60 * 1000, // 1 hour
