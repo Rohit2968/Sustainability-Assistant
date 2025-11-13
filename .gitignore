@@ -1,0 +1,58 @@
+# ====== Node / Backend ======
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+backend/yarn-debug.log
+backend/yarn-error.log
+backend/dist/
+backend/.DS_Store
+
+# ====== Frontend (React + Vite) ======
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.DS_Store
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+
+# ====== Global Cache ======
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+.cache/
+.temp/
+.tmp/
+
+# ====== OS Files ======
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ====== Editor Files ======
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ====== Environment Files ======
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ====== Build Files ======
+build/
+out/
+coverage/
+
+# ====== Misc ======
+*.bak
+*.tmp
